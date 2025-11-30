@@ -18,6 +18,24 @@ const fonts: SatoriOptions["fonts"] = [
     weight: 800,
     data: fs.readFileSync("public/fonts/Inter-Bold.ttf"),
   },
+  {
+    name: "Inter",
+    style: "normal",
+    weight: 900,
+    data: fs.readFileSync("public/fonts/Inter-Black.woff"),
+  },
+  {
+    name: "Inter",
+    style: "italic",
+    weight: 400,
+    data: fs.readFileSync("public/fonts/Inter-Regular.ttf"),
+  },
+  {
+    name: "Inter",
+    style: "italic",
+    weight: 300,
+    data: fs.readFileSync("public/fonts/Inter-LightItalic.woff"),
+  },
 ];
 
 export const renderLayoutToSVG = async ({

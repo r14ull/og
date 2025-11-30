@@ -19,7 +19,7 @@ const Home: NextPage = () => {
   return (
     <main tw="px-6 pb-20 max-w-6xl w-full mx-auto">
       <header tw="text-center mt-20 mb-10 space-y-6">
-        <h1 tw="text-5xl font-bold">Railway OG Image Generator</h1>
+        <h1 tw="text-5xl font-bold">Rafflex OG Image Generator</h1>
         <h2 tw="text-xl text-gray-600">Dynamic open graph images service</h2>
       </header>
 
@@ -31,60 +31,7 @@ const Home: NextPage = () => {
         </>
       )}
 
-      <section tw="mt-16 grid gap-8 grid-cols-1 md:grid-cols-2">
-        <div>
-          <H2>What is This?</H2>
-          <P>
-            This service dynamically generates{" "}
-            <StyledLink href="https://ogp.me/">Open Graph</StyledLink> images to
-            be used in HTML meta tags. OG images are configured with{" "}
-            <StyledLink href="https://github.com/railwayapp/og/tree/main/src/layouts">
-              layouts
-            </StyledLink>{" "}
-            written in React, HTML, and Tailwind. The layout is rendered with
-            the user input above to SVG with{" "}
-            <StyledLink href="https://github.com/vercel/satori">
-              satori
-            </StyledLink>
-            .
-          </P>
 
-          <P>
-            This service is currently in use by{" "}
-            <StyledLink href="https://railway.app">Railway</StyledLink> and used
-            to dynamically generate OG images for the{" "}
-            <StyledLink href="https://docs.railway.app">docs</StyledLink> and{" "}
-            <StyledLink href="https://blog.railway.app">blog</StyledLink>.
-          </P>
-        </div>
-
-        <div>
-          <H2>Make it Your Own</H2>
-
-          <P>
-            This generator is{" "}
-            <StyledLink href="https://github.com/railwayapp/og-generator">
-              open source on GitHub
-            </StyledLink>{" "}
-            and has been designed to be easily customizable.
-          </P>
-
-          <P>
-            Get started by deploying to{" "}
-            <StyledLink href="https://railway.app">Railway</StyledLink> with
-            1-click.
-          </P>
-
-          <P>
-            <Link href="https://railway.app/new/template/xWRIhd">
-              <img
-                src="https://railway.app/button.svg"
-                alt="Deploy on Railway"
-              />
-            </Link>
-          </P>
-        </div>
-      </section>
     </main>
   );
 };

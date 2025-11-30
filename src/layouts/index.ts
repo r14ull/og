@@ -3,6 +3,7 @@ import { docsLayout } from "./docsLayout";
 import { simpleLayout } from "./simpleLayout";
 import { starterLayout } from "./starterLayout";
 import { templateLayout } from "./templateLayout";
+import { truenorthLayout } from "./truenorthLayout";
 import { ILayout, ILayoutConfig } from "./types";
 
 export const layouts: ILayout<any>[] = [
@@ -11,6 +12,7 @@ export const layouts: ILayout<any>[] = [
   starterLayout,
   simpleLayout,
   templateLayout,
+  truenorthLayout,
 ];
 
 export const getLayout = (layoutName: string): ILayout => {
